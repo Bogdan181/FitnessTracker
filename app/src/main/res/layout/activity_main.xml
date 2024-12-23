@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_background">
+
+    <!-- Логотип -->
+
+    <!-- Список тренувань -->
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+    android:src="@drawable/logo" />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/logoImage"
+        android:layout_above="@id/addTrainingButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/buttonViewStatistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Переглянути статистику"
+        android:background="#3949AB"
+        android:textColor="#ffffff" />
+
+    <!-- Кнопка для додавання тренування -->
+    <Button
+        android:id="@+id/addTrainingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:text="Додати тренування"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3949AB" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FitnessTracker</string>
+    <string-array name="categories">
+        <item>Кардіо</item>
+        <item>Силові</item>
+        <item>Йога</item>
+        <item>Інше</item>
+    </string-array>
+</resources>
